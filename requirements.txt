@@ -1,2 +1,5 @@
 pymongo
 pandas
+json
+os
+MogngoClinent
