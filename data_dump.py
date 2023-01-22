@@ -53,7 +53,8 @@ class MongoDB(object):
         print("All the data has been exported to mongoDb server....")
 
 if __name__=="__main__":
-    mongodb= MongoDB(dbName="adult_census", collectionName="final_train_with_smote")
-    mongodb.InsertData(path= "D://proj_1_adult_census_prediction//data//processed//final_data_with_SMOTE.csv")
-
+    #mongodb= MongoDB(dbName="adult_census", collectionName="final_train_with_smote")
+    #mongodb.InsertData(path= "D://proj_1_adult_census_prediction//data//processed//final_data_with_SMOTE.csv")
+    mongodb= MongoDB(dbName="adult_census", collectionName="final_data")
+    mongodb.InsertData(path= "D://proj_1_adult_census_prediction//data//processed//final_data.csv")
 
