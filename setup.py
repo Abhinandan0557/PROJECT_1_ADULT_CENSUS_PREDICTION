@@ -17,17 +17,16 @@ def get_requirements()->List[str]:
         requirement_list = [requirement_name.replace("\n","") for requirement_name in requirement_list]
 
 #-e . is not a library so we have to remove it
-if HYPHEN_E_DOT in requirement_list:
+    if HYPHEN_E_DOT in requirement_list:
         requirement_list.remove(HYPHEN_E_DOT)
     return requirement_list
 
 
 setup(
-    name="ADULT_CEBNSUS_PREDICTION",
+    name="ADULT_CENSUS_PREDICTION",
     version="0.0.1",
     author="ABHINANDAN CHOUGULE",
     author_email="abhi.c0557@gmail.com",
     packages= find_packages(),    #it will consider folder as python package which contain __init__.py file
-    install_requires= get_requirements(),
-
+    install_requires= get_requirements()
 )
