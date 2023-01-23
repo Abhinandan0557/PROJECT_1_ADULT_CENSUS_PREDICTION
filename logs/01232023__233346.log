@@ -1,0 +1,8 @@
+[ 2023-01-23 23:33:47,004 ] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[ 2023-01-23 23:33:50,667 ] 18 root - INFO - Reading data from database: adult_census and collection: final_data
+[ 2023-01-23 23:34:09,715 ] 20 root - INFO - Found columns: Index(['_id', 'Unnamed: 0', 'age', 'workclass', 'fnlwgt', 'education',
+       'education-num', 'marital-status', 'occupation', 'relationship', 'race',
+       'sex', 'hours-per-week', 'country', 'salary'],
+      dtype='object')
+[ 2023-01-23 23:34:09,719 ] 22 root - INFO - Dropping column: _id 
+[ 2023-01-23 23:34:09,749 ] 27 root - INFO - Row and columns in df: (32561, 14)
